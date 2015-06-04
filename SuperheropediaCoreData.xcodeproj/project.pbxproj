@@ -10,11 +10,15 @@
 		988AB2FF1AC349AF000418F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 988AB2FE1AC349AF000418F6 /* main.m */; };
 		988AB3021AC349AF000418F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 988AB3011AC349AF000418F6 /* AppDelegate.m */; };
 		988AB3051AC349AF000418F6 /* SuperheropediaCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 988AB3031AC349AF000418F6 /* SuperheropediaCoreData.xcdatamodeld */; };
-		988AB3081AC349AF000418F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 988AB3071AC349AF000418F6 /* ViewController.m */; };
+		988AB3081AC349AF000418F6 /* SuperheroesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 988AB3071AC349AF000418F6 /* SuperheroesViewController.m */; };
 		988AB30B1AC349AF000418F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 988AB3091AC349AF000418F6 /* Main.storyboard */; };
 		988AB30D1AC349AF000418F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 988AB30C1AC349AF000418F6 /* Images.xcassets */; };
 		988AB3101AC349AF000418F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 988AB30E1AC349AF000418F6 /* LaunchScreen.xib */; };
 		988AB31C1AC349AF000418F6 /* SuperheropediaCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 988AB31B1AC349AF000418F6 /* SuperheropediaCoreDataTests.m */; };
+		988AB3271AC34BC5000418F6 /* RetiredSuperhero.m in Sources */ = {isa = PBXBuildFile; fileRef = 988AB3261AC34BC5000418F6 /* RetiredSuperhero.m */; };
+		F228BD891B1FADF100A34EAD /* Superhero.m in Sources */ = {isa = PBXBuildFile; fileRef = F228BD881B1FADF100A34EAD /* Superhero.m */; };
+		F228BD8C1B1FADF100A34EAD /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = F228BD8B1B1FADF100A34EAD /* Team.m */; };
+		F228BD951B1FB5C600A34EAD /* TeamTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F228BD941B1FB5C600A34EAD /* TeamTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +38,22 @@
 		988AB3001AC349AF000418F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		988AB3011AC349AF000418F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		988AB3041AC349AF000418F6 /* SuperheropediaCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SuperheropediaCoreData.xcdatamodel; sourceTree = "<group>"; };
-		988AB3061AC349AF000418F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		988AB3071AC349AF000418F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		988AB3061AC349AF000418F6 /* SuperheroesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperheroesViewController.h; sourceTree = "<group>"; };
+		988AB3071AC349AF000418F6 /* SuperheroesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperheroesViewController.m; sourceTree = "<group>"; };
 		988AB30A1AC349AF000418F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		988AB30C1AC349AF000418F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		988AB30F1AC349AF000418F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		988AB3151AC349AF000418F6 /* SuperheropediaCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperheropediaCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		988AB31A1AC349AF000418F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		988AB31B1AC349AF000418F6 /* SuperheropediaCoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperheropediaCoreDataTests.m; sourceTree = "<group>"; };
+		988AB3251AC34BC5000418F6 /* RetiredSuperhero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetiredSuperhero.h; sourceTree = "<group>"; };
+		988AB3261AC34BC5000418F6 /* RetiredSuperhero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetiredSuperhero.m; sourceTree = "<group>"; };
+		F228BD871B1FADF100A34EAD /* Superhero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Superhero.h; sourceTree = "<group>"; };
+		F228BD881B1FADF100A34EAD /* Superhero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Superhero.m; sourceTree = "<group>"; };
+		F228BD8A1B1FADF100A34EAD /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Team.h; sourceTree = "<group>"; };
+		F228BD8B1B1FADF100A34EAD /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Team.m; sourceTree = "<group>"; };
+		F228BD931B1FB5C600A34EAD /* TeamTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamTableViewController.h; sourceTree = "<group>"; };
+		F228BD941B1FB5C600A34EAD /* TeamTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +95,14 @@
 		988AB2FB1AC349AF000418F6 /* SuperheropediaCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				F228BD861B1FAB5E00A34EAD /* Model */,
 				988AB3001AC349AF000418F6 /* AppDelegate.h */,
 				988AB3011AC349AF000418F6 /* AppDelegate.m */,
-				988AB3061AC349AF000418F6 /* ViewController.h */,
-				988AB3071AC349AF000418F6 /* ViewController.m */,
+				988AB3061AC349AF000418F6 /* SuperheroesViewController.h */,
+				988AB3071AC349AF000418F6 /* SuperheroesViewController.m */,
 				988AB3091AC349AF000418F6 /* Main.storyboard */,
+				F228BD931B1FB5C600A34EAD /* TeamTableViewController.h */,
+				F228BD941B1FB5C600A34EAD /* TeamTableViewController.m */,
 				988AB30C1AC349AF000418F6 /* Images.xcassets */,
 				988AB30E1AC349AF000418F6 /* LaunchScreen.xib */,
 				988AB3031AC349AF000418F6 /* SuperheropediaCoreData.xcdatamodeld */,
@@ -120,6 +135,19 @@
 				988AB31A1AC349AF000418F6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F228BD861B1FAB5E00A34EAD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F228BD8A1B1FADF100A34EAD /* Team.h */,
+				F228BD8B1B1FADF100A34EAD /* Team.m */,
+				F228BD871B1FADF100A34EAD /* Superhero.h */,
+				988AB3251AC34BC5000418F6 /* RetiredSuperhero.h */,
+				988AB3261AC34BC5000418F6 /* RetiredSuperhero.m */,
+				F228BD881B1FADF100A34EAD /* Superhero.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,9 +250,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F228BD8C1B1FADF100A34EAD /* Team.m in Sources */,
 				988AB3051AC349AF000418F6 /* SuperheropediaCoreData.xcdatamodeld in Sources */,
+				F228BD951B1FB5C600A34EAD /* TeamTableViewController.m in Sources */,
 				988AB3021AC349AF000418F6 /* AppDelegate.m in Sources */,
-				988AB3081AC349AF000418F6 /* ViewController.m in Sources */,
+				988AB3081AC349AF000418F6 /* SuperheroesViewController.m in Sources */,
+				988AB3271AC34BC5000418F6 /* RetiredSuperhero.m in Sources */,
+				F228BD891B1FADF100A34EAD /* Superhero.m in Sources */,
 				988AB2FF1AC349AF000418F6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +448,7 @@
 				988AB3211AC349AF000418F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		988AB3221AC349AF000418F6 /* Build configuration list for PBXNativeTarget "SuperheropediaCoreDataTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +457,7 @@
 				988AB3241AC349AF000418F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
